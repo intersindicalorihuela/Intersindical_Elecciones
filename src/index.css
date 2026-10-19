@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ink: #1D1B1A;
+    --ink-soft: #5C544F;
+    --paper: #F6F2EC;
+    --paper-card: #FFFDF9;
+    --red: #BB2B09;
+    --red-deep: #8A2007;
+    --red-tint: #FBEAE4;
+    --red-tint-border: #F0C4B6;
+    --green: #2F6B4F;
+    --rust: #7A4136;
+    --gold: #FF6A45;
+    --line: #E3D9CF;
+    --line-soft: #ECE4DB;
+  }
+
+  body {
+    background-color: #F6F2EC;
+    color: #1D1B1A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Source Serif 4', Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .font-mono, code {
+    font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+.brand-eyebrow {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8A2007;
+  background: #FBEAE4;
+  border-left: 4px solid #BB2B09;
+  border-radius: 0 4px 4px 0;
+  padding: 0.25rem 0.65rem;
+}
+
+.stamp {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: #8A2007;
+  border: 1.5px solid #BB2B09;
+  border-radius: 4px;
+  padding: 0.45rem 0.75rem;
+  transform: rotate(-2deg);
+  white-space: nowrap;
+  background-color: #FFFDF9;
+}

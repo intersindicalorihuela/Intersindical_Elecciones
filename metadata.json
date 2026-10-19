@@ -1,0 +1,8 @@
+{
+  "name": "Escrutinio Electoral Sindical - Intersindical",
+  "description": "Plantilla oficial para el cálculo de delegados sindicales mediante proporcionalidad por cociente y restos mayores con umbral del 5% de votos válidos, con exportación a PDF y Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
